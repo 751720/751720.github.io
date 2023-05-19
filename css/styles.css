@@ -45,6 +45,7 @@ ul {
 	background-color: #fff;
 	color: #000;
 	font-family: Arial, Helvetica, sans-serif;
+	width: 95%;
 }
 	
 .logo,
@@ -77,7 +78,7 @@ ul {
 
 .logo a {
 	font-weight: bold;
-	font-size: 2rem
+	font-size: 2rem ;
 }
 
 a {
@@ -90,7 +91,7 @@ a {
 /* Begin Grid */
 
 .gallery-page {
-	padding: 0 1rem 10rem 1rem;
+	padding: 0 0 10rem 0;
 }
 
 .gallery-span {
@@ -139,7 +140,7 @@ a {
 
 @media (min-width: 600px) {
 	.header-nav {
-		line-height: 1.5rem;
+		line-height: 1rem;
 	}
 	.nav-menu {
 		width: 100%;
