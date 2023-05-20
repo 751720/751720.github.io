@@ -11,7 +11,7 @@ body {
 	margin: 0 auto;
 	padding: 0;
 	height: 100%;
-	max-width: 1000px;
+	max-width: 1400px;
 }
 
 *, 
@@ -51,7 +51,7 @@ ul {
 	background-color: #fff;
 	color: #000;
 	font-family: Arial, Helvetica, sans-serif;
-	width: 95%;
+	width: 97%;
 }
 	
 .logo,
@@ -96,16 +96,8 @@ a {
 /* Begin Grid */
 
 .gallery-page {
-	padding: 0 0 10rem 0;
-}
-
-.gallery-span {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	grid-auto-rows: 700px;
-	grid-auto-flow: dense;
-	grid-gap: 0.2rem;
+	margin: 0 auto;
+	padding: 0;
 }
 
 .gallery-item {
@@ -156,6 +148,9 @@ a {
 	}
 	.nav-item {
 		flex: 1 0 10%;
+	}
+	.gallery-span {
+		max-height: 700px;
 	}
 	/* Grid column and row spans for wider screens */
 	.w-1 {
