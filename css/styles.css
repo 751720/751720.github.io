@@ -37,6 +37,40 @@ ul {
     list-style-type: none;
 }
 
+/* Footer */
+
+#footer-nav {
+	overflow: hidden;
+	width: 100%;
+	text-transform: uppercase;
+	text-align: left;
+	flex-wrap: wrap;
+	font-size: 12px;
+	padding-left: 1.3rem;
+}
+
+#inner {
+	overflow: hidden;
+	width: 1400px;
+}
+
+.me-info {
+ width: calc(100% / 21);  
+ vertical-align: top;   
+ text-align:left;
+ margin:1%;    
+	font-weight: bold;
+	display: inline-block;
+}
+}
+
+.measurements {
+	font-weight: italic;
+}
+
+
+
+
 /* Begin Navbar Styles */
 .header-nav {
 	display: flex;
@@ -152,6 +186,11 @@ a {
 		padding: 1rem 0;
 		line-height: 1rem;
 	}
+		.footer {
+		display: flex;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
 	.nav-menu {
 		width: 100%;
 	}
@@ -197,9 +236,17 @@ a {
 	}
 }
 
+.fa {
+  padding: 0 0 0 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+ 
 
 .prevent-select {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
 }
+
