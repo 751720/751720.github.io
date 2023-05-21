@@ -46,7 +46,7 @@ ul {
 	text-align: left;
 	flex-wrap: wrap;
 	font-size: 12px;
-	padding-left: 1.3rem;
+	padding-left: 0.7rem;
 }
 
 #inner {
@@ -55,7 +55,7 @@ ul {
 }
 
 .me-info {
- width: calc(100% / 21);  
+ width: calc(100% / 18);  
  vertical-align: top;   
  text-align:left;
  margin:1%;    
